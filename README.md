@@ -42,7 +42,7 @@ Step 3:
 	Model Score
 	After Training your Dataset with model you can test the remaining 20% of Testing data to Test using   model.score(X_test,y_test)) 
 
-	This model has 98% Accuracy using SVM algo 
+	This model is 98% Accurate using SVM (Support Vector Machine) algorithm We can also try various Algorithms like NLTK Module 
 
 Step 4 :
 	Final Output
