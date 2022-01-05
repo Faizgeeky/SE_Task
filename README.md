@@ -3,20 +3,24 @@
 
 ## Install Pandas and Scikit learn module 
 ### Step1
-!pip install pandas 
+	!pip install pandas 
 
-!pip install scikit-learn
+	!pip install scikit-learn
 
 ### Step2 
 Open Prompt and run command 
-!python SpamFilter.py
+
+	!python SpamFilter.py
 
 ### Step3
-It will ask for message to enter 
-Please enter your Message :- $message
+It will ask you to enter a message.
+
+	Please enter your Message :- $message
 
 ### Step4 
-It will show wheater it is Spam or Not Spam
+It will show wheater it is 
+
+	Spam/Not Spam
 
 
 
