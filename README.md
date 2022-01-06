@@ -24,7 +24,7 @@ It will show wheater it is
 
 
 
-# Documentaion
+# Documentation
 
 To make SpamFilter using Python we can use Multiple ML and Deep Learning Frameworks. In this app I’ve Used SVM (Support Vector Machine) Algorithm which has 98% Accuracy for the given Data. 
 
