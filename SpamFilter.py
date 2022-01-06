@@ -10,14 +10,14 @@ def SpamFilter(message):
     # file location 
     file1 = open(r"SMSSpamCollection.txt","r")
     lines = file1.readlines()
-    count = 0
+    
     # Use Pandas dataframe
     df = pd.DataFrame()
     print("Reading Data ....")
 
     # As it is TXT file, Use String Manupulation to seprate labels from Message
     for line in lines:
-        count += 1
+      
         df = df.append({'Type': line[:4], 'Message': line[4:]}, ignore_index=True)
     
     # ML model to train X, y cordinate , X is feature and y is Target 
